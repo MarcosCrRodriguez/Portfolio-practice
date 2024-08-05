@@ -1,0 +1,45 @@
+/* Footer Settings */
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 40px 0;
+}
+.footer h4 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+.footer p {
+    font-size: 1rem;
+    line-height: 1.6;
+}
+.footer .quick-links {
+    list-style: none;
+    padding: 0;
+}
+.footer .quick-links li {
+    margin-bottom: 10px;
+}
+.footer .quick-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s;
+}
+.footer .quick-links a:hover {
+    color: #f8f9fa;
+}
+.footer .social-icons {
+    margin-top: 20px;
+}
+.footer .social-icons a {
+    display: inline-block;
+    margin-right: 10px;
+}
+.footer .social-icons img {
+    width: 24px;
+    height: 24px;
+    transition: transform 0.3s;
+}
+.footer .social-icons a:hover img {
+    transform: scale(1.2);
+}

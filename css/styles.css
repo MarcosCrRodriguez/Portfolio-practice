@@ -1,0 +1,25 @@
+/* Styles */
+.styled-hr {
+    border: 0;
+    height: 1px;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0), #000000, rgba(0, 0, 0, 0));
+    margin: 20px 0;
+    position: relative;
+}
+.styled-hrw {
+    border: 0;
+    height: 1px;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0), #ffffff, rgba(255, 255, 255, 0));
+    position: relative;
+}
+.styled-hr::before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -6px;
+    width: 50px;
+    height: 3px;
+    background-color: #817e7e;
+    border-radius: 3px;
+}

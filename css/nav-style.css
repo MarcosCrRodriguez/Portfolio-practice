@@ -1,0 +1,84 @@
+.navbar-custom {
+  background-color: #3a424f !important; /* Color gris azulado medio oscuro */
+  padding: 20px;
+}
+
+.navbar-custom .navbar-brand,
+.navbar-custom .nav-link,
+.navbar-custom .dropdown-toggle,
+.offcanvas-header h5,
+.offcanvas-body .nav-link {
+  color: #ffffff !important; /* Color blanco para el título y las opciones */
+}
+
+.navbar-custom .nav-link.active,
+.navbar-custom .dropdown-item,
+.offcanvas-body .dropdown-item {
+  color: #ffffff !important; /* Asegurar que las opciones activas también sean blancas */
+}
+
+.navbar-custom .dropdown-item:hover,
+.offcanvas-body .dropdown-item:hover {
+  background-color: #5a637a !important; /* Color de fondo al pasar el ratón por las opciones del menú desplegable */
+  color: #ffffff !important; /* Color de texto al pasar el ratón por las opciones del menú desplegable */
+}
+
+.offcanvas-custom {
+  background-color: #3a424f !important; /* Mismo color de fondo que la barra de navegación */
+}
+
+.navbar-toggler {
+  border-color: #ffffff !important; /* Color blanco para el borde del botón del desplegador de opciones */
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' linecap='round' linejoin='round' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E") !important; /* Icono del desplegador en blanco */
+}
+
+/* Nuevos estilos para el dropdown */
+.navbar-custom .dropdown-menu {
+  background-color: #3a424f !important; /* Color del fondo del dropdown */
+  color: #ffffff !important; /* Color del texto */
+}
+
+.navbar-custom .dropdown-item {
+  color: #ffffff !important; /* Color del texto de las opciones */
+}
+
+.navbar-custom .dropdown-item:hover,
+.navbar-custom .dropdown-item:focus {
+  background-color: #5a637a !important; /* Color de fondo al pasar el ratón */
+  color: #ffffff !important; /* Color del texto al pasar el ratón */
+}
+
+/* Opciones específicas para el modo oscuro */
+.dark-mode .navbar-custom .dropdown-menu {
+  background-color: #444 !important;
+  color: #ffffff !important;
+}
+
+.dark-mode .navbar-custom .dropdown-item {
+  color: #ffffff !important;
+}
+
+.dark-mode .navbar-custom .dropdown-item:hover,
+.dark-mode .navbar-custom .dropdown-item:focus {
+  background-color: #555 !important;
+  color: #ffffff !important;
+}
+
+/* Opciones específicas para el modo claro */
+.light-mode .navbar-custom .dropdown-menu {
+  background-color: #f8f9fa !important;
+  color: #000000 !important;
+}
+
+.light-mode .navbar-custom .dropdown-item {
+  color: #000000 !important;
+}
+
+.light-mode .navbar-custom .dropdown-item:hover,
+.light-mode .navbar-custom .dropdown-item:focus {
+  background-color: #e2e6ea !important;
+  color: #000000 !important;
+}

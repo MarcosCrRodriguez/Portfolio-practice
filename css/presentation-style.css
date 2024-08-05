@@ -1,0 +1,48 @@
+/* Section customizations */
+.profile-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #cfcbcb; /* Fondo gris claro */
+    padding: 20px 0; /* Padding arriba y abajo */
+    margin-top: 70px; /* Para asegurarse de que esté debajo del navbar fijo */
+    border: 2px solid #b8b4b4;
+    border-radius: 8px;
+}
+.profile-image-container {
+    position: relative;
+    width: 100%;
+    height: 42vh; /* Altura ajustada de la imagen en 15vh */
+    margin-top: 50px;
+    margin-bottom: 30px;
+    overflow: hidden;
+    background-color: #cfcbcb; /* Fondo gris claro */
+}
+.profile-image {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid #ffffff; /* Borde blanco */
+}
+.profile-details {
+    background-color: #ffffff; /* Fondo blanco */
+    padding: 20px;
+    text-align: center;
+    margin-top: 15px; /* Espacio entre la imagen y el bloque de detalles */
+    margin-bottom: 40px;
+    border-radius: 8px; /* Bordes redondeados para un diseño más suave */
+}
+.profile-details h2 {
+    margin-bottom: 15px;
+    font-size: 1.75rem; /* Tamaño del título ajustado */
+}
+.profile-details p {
+    margin: 0;
+    font-size: 1.125rem; /* Tamaño de la descripción ajustado */
+    color: #333;
+}

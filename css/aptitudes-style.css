@@ -1,0 +1,37 @@
+/* Aptitude Section customizations */
+.icon-section-wrapper {
+    border: 2px solid #b8b4b4;
+    border-radius: 8px;
+    padding: 25px;
+    margin: 20px auto;
+    background-color: #ebecec;
+    max-width: 1400px; /* Ajusta según tu preferencia */
+    width: 90%; /* Ajusta según tu preferencia */
+}
+.icon-title {
+    padding: 20px;
+    background-color: #3a424f; /* Color del fondo igual al de la barra de navegación */
+    border-radius: 8px;
+    border-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff; /* Color del texto blanco */
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.icon-section {
+    display: flex;
+    padding: 20px 0;
+    margin-bottom: 40px;
+}
+.aptitude-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+.aptitude-image {
+    width: 100px;
+    height: 100px;
+}

@@ -1,0 +1,109 @@
+/* Modo claro */
+body.light-mode {
+    background-color: #f8f9fa;
+    color: #000000;
+}
+
+.navbar.light-mode {
+    background-color: #ffffff;
+}
+
+.light-mode .navbar-brand,
+.light-mode .nav-link {
+    color: #000000;
+}
+
+/* Modo oscuro */
+body.dark-mode {
+    background-color: #343a40;
+    color: #000000;
+}
+
+.navbar.dark-mode {
+    background-color: #343a40;
+}
+
+.dark-mode .navbar-brand,
+.dark-mode .nav-link {
+    color: #ffffff;
+}
+
+/* Light settings */
+body.light-mode .video-container, 
+body.light-mode .text-container,
+body.light-mode .p {
+    background-color: #cfcbcb !important;
+    color: #000000 !important;
+}
+
+body.light-mode .profile-section, 
+body.light-mode .profile-image-container {
+    background-color: #cfcbcb !important;
+}
+
+body.light-mode .profile-details {
+    background-color: #ffffff !important;
+    border: 2px solid #b8b4b4 !important;
+    color: #000000;
+}
+
+body.light-mode .profile-description  {
+    color: #454444 !important;
+}
+
+body.light-mode .text-container p {
+    background-color: #cfcbcb !important;
+    color: #2d2c2c !important;
+}
+
+body.light-mode .contact-section {
+    background-color: #f8f9fa !important;
+}
+
+body.light-mode .title-formation {
+    color: #000000 !important;
+}
+
+body.light-mode .styled-hr {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0), #000000, rgba(0, 0, 0, 0));
+}
+
+/* Dark settings */
+body.dark-mode .video-container, 
+body.dark-mode .text-container,
+body.dark-mode .p  {
+    background-color: #3f4449 !important;
+    color: #ffffff !important;
+}
+
+body.dark-mode .profile-section,
+body.dark-mode .profile-image-container  {
+    background-color: #727576 !important;
+}
+
+body.dark-mode .profile-details {
+    background-color: #7e8282 !important;
+    border: 2px solid #fffefe !important;
+    color: #ffffff;
+}
+
+body.dark-mode .profile-description  {
+    color: #ffffff !important;
+}
+
+body.dark-mode .text-container p  {
+    background-color: #3f4449 !important;
+    color: #b5b2b2 !important;
+}
+
+body.dark-mode .contact-section {
+    background-color: #343a40 !important;
+}
+
+body.dark-mode .title-formation {
+    color: #ffffff !important;
+}
+
+body.dark-mode .styled-hr {
+    background: linear-gradient(to right, rgba(255, 255, 255, 0), #ffffff, rgba(255, 255, 255, 0));
+}
